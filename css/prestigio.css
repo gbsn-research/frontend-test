@@ -1,0 +1,1984 @@
+#prestigio,
+#navbar-module {
+    --pr-blue: #624deb;
+    --pr-lightblue: #4dd6eb;
+    --pr-green: #4debb1;
+}
+
+#prestigio.brand-prestigio,
+#navbar-module.brand-navbar {
+    /*
+	--pr-blue: #366378;
+	--pr-lightblue: #729691;
+	--pr-green: #729691;
+*/
+    --pr-blue: #708bd4;
+    --pr-lightblue: #72a4d4;
+    --pr-green: #57bc90;
+}
+
+.pr-offset-l1 {
+    margin-left: -1rem;
+}
+
+.pr-offset-l2 {
+    margin-left: -2rem;
+}
+
+.pr-offset-l3 {
+    margin-left: -3rem;
+}
+
+@media (max-width: 575px) {
+    .pr-offset-l3 {
+        margin-left: -2rem;
+    }
+}
+
+.pr-offset-l4 {
+    margin-left: -4rem;
+}
+
+.pr-offset-l5 {
+    margin-left: -5rem;
+}
+
+.pr-offset-l6 {
+    margin-left: -6rem;
+}
+
+.pr-offset-r1 {
+    margin-left: 1rem;
+    width: calc(100% + 1rem);
+}
+
+.pr-offset-r2 {
+    margin-left: 2rem;
+    width: calc(100% + 2rem);
+}
+
+.pr-offset-r3 {
+    margin-left: 3rem;
+    width: calc(100% + 3rem);
+}
+
+.pr-offset-r4 {
+    margin-left: 4rem;
+    width: calc(100% + 4rem);
+}
+
+.pr-offset-r5 {
+    margin-left: 5rem;
+    width: calc(100% + 5rem);
+}
+
+.pr-offset-r6 {
+    margin-left: 6rem;
+    width: 100%;
+}
+
+.pr-offset-t1 {
+    margin-top: -1rem;
+}
+
+.pr-offset-t2 {
+    margin-top: -2rem;
+}
+
+.pr-offset-t3 {
+    margin-top: -3rem;
+}
+
+.pr-offset-t4 {
+    margin-top: -4rem;
+}
+
+.pr-offset-t5 {
+    margin-top: -5rem;
+}
+
+.pr-offset-t6 {
+    margin-top: -6rem;
+}
+
+.pr-offset-b1 {
+    margin-top: 1rem;
+}
+
+.pr-offset-b2 {
+    margin-top: 2rem;
+}
+
+.pr-offset-b3 {
+    margin-top: 3rem;
+}
+
+.pr-offset-b4 {
+    margin-top: 4rem;
+}
+
+.pr-offset-b5 {
+    margin-top: 5rem;
+}
+
+.pr-offset-b6 {
+    margin-top: 6rem;
+}
+
+.pr-responsive-title {
+    margin-left: -2.5rem;
+}
+
+@media (max-width: 767px) {
+    .pr-responsive-title {
+        margin-left: 0;
+    }
+}
+
+.pr-responsive-title-small {
+    margin-left: -1.5rem;
+}
+
+@media (max-width: 767px) {
+    .pr-responsive-title-small {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .prestigio-sample-offset-pane .pr-central-sm-12 {
+        padding: 0 1.5rem 0 4.5rem !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-sample-offset-pane .pr-central-12 {
+        padding: 0 3.5rem !important;
+    }
+}
+
+.prestigio-responsive-central-pane {
+    padding: 0 1rem;
+}
+
+/*
+@media (max-width: 767px) {
+	.prestigio-responsive-central-pane {
+		padding: 0 0.5rem;
+	}
+}
+*/
+
+.prestigio-offset-pane-small {
+    width: calc(100% + 6rem);
+    margin-left: -3rem;
+}
+
+@media (max-width: 1199px) {
+    .prestigio-offset-pane-small {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .prestigio-offset-pane-small {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-pane-small {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-pane-small {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-offset-pane-medium {
+    width: calc(100% + 10rem);
+    margin-left: -5rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-offset-pane-medium {
+        width: calc(100% + 8rem);
+        margin-left: -4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-pane-medium {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-pane-medium {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-offset-pane-big {
+    width: calc(100% + 14rem);
+    margin-left: -7rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-offset-pane-big {
+        width: calc(100% + 10rem);
+        margin-left: -5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-pane-big {
+        width: calc(100% + 8rem);
+        margin-left: -4rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-pane-big {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-offset-pane-xl {
+    width: calc(100% + 18rem);
+    margin-left: -9rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-offset-pane-xl {
+        width: calc(100% + 12rem);
+        margin-left: -6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-pane-xl {
+        width: calc(100% + 10rem);
+        margin-left: -5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-pane-xl {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-offset-pane-hxl {
+    width: calc(100% + 24rem);
+    margin-left: -12rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-offset-pane-hxl {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-pane-hxl {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-pane-hxl {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-offset-pane-ultra {
+    width: 220%;
+    margin-left: -60%;
+}
+
+@media (max-width: 991px) {
+    .prestigio-offset-pane-ultra {
+        width: 150%;
+        margin-left: -25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-pane-ultra {
+        width: 150%;
+        margin-left: -25%;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-pane-ultra {
+        width: 125%;
+        margin-left: -12.5%;
+    }
+}
+
+/*
+ * SPECIAL PANES
+ */
+
+.prestigio-dashboard-offset-pane {
+    width: calc(100% + 9rem);
+    margin-left: -9rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-dashboard-offset-pane {
+        width: calc(100% + 6rem);
+        margin-left: -6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-dashboard-offset-pane {
+        width: calc(100% + 5rem);
+        margin-left: -5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-dashboard-offset-pane {
+        width: calc(100% + 2rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-campaign-offset-pane {
+    width: calc(100% + 3rem);
+    margin-left: -3rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-campaign-offset-pane {
+        width: calc(100% + 3rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-campaign-offset-pane {
+        width: calc(100% + 3rem);
+        margin-left: -1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-campaign-offset-pane {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-sample-offset-pane {
+    width: calc(100% + 6rem);
+    margin-left: -3rem;
+}
+
+@media (max-width: 991px) {
+    .prestigio-sample-offset-pane {
+        width: calc(100% + 3rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-sample-offset-pane {
+        width: calc(100% + 3rem);
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-sample-offset-pane {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+    }
+}
+
+.prestigio-profile-offset-pane {
+    width: calc(100% + 3rem);
+}
+
+@media (max-width: 991px) {
+    .prestigio-profile-offset-pane {
+        width: calc(100% + 3rem);
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-profile-offset-pane {
+        width: calc(100% + 3rem);
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-profile-offset-pane {
+        width: calc(100% + 4rem);
+    }
+}
+
+.prestigio-finish-offset-pane {
+    width: calc(100% + 6rem);
+}
+
+@media (max-width: 991px) {
+    .prestigio-finish-offset-pane {
+        width: calc(100% + 4rem);
+    }
+}
+
+@media (max-width: 767px) {
+    .prestigio-finish-offset-pane {
+        width: calc(100% + 4rem);
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-finish-offset-pane {
+        width: calc(100% + 2rem);
+    }
+}
+
+/*
+ * NULLIFIERS
+ */
+.prestigio-offset-nullifier-small,
+.prestigio-offset-nullifier-xl {
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .prestigio-offset-nullifier-small {
+        padding: 0 4rem;
+    }
+
+    .prestigio-offset-nullifier-xl {
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .prestigio-offset-nullifier-small {
+        padding: 0 3rem;
+    }
+
+    .prestigio-offset-nullifier-xl {
+        padding: 0 3rem;
+    }
+}
+
+/*
+ * ROW GUTTER VARIATIONS
+ */
+.pr-close-row {
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+}
+
+.pr-close-row > .col,
+.pr-close-row > [class*="col-"] {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.pr-closer-row {
+    margin-right: -0.25rem;
+    margin-left: -0.25rem;
+}
+
+.pr-closer-row > .col,
+.pr-closer-row > [class*="col-"] {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
+@media (max-width: 767px) {
+    .pr-responsive-row {
+        margin-right: -0.25rem;
+        margin-left: -0.25rem;
+    }
+
+    .pr-responsive-row > .col,
+    .pr-responsive-row > [class*="col-"] {
+        padding-right: 0.25rem;
+        padding-left: 0.25rem;
+    }
+}
+
+.row.nowrap > .col {
+    min-width: 0;
+}
+
+.prestigio-pane {
+    position: relative;
+    background: #fff;
+    color: #444;
+    padding: 0.5rem;
+    z-index: 1;
+    border-radius: 1rem;
+}
+
+.prestigio-pane.clickable {
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.prestigio-pane.clickable:hover {
+    border-color: var(--pr-blue);
+    box-shadow: 2px 2px 10px 0 rgba(112, 139, 212, 0.25);
+}
+
+.prestigio-responsive-pane {
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .prestigio-responsive-pane {
+        padding: 0.5rem;
+    }
+}
+
+.prestigio-influencer-background {
+    min-height: 100vh;
+    background: #e7f4f9;
+}
+
+.prestigio-brand-background {
+    min-height: 100vh;
+    background: #d6e5e5;
+}
+
+.brand-prestigio *.prestigio-blue,
+.brand-prestigio *.prestigio-blue-white {
+    background: var(--pr-blue);
+    background: -moz-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-blue) 100%
+    );
+    background: -webkit-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-blue) 100%
+    );
+    background: linear-gradient(45deg, var(--pr-green) 0%, var(--pr-blue) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--pr-green), endColorstr=var(--pr-blue), GradientType=1);
+}
+
+/*
+.brand-prestigio *.prestigio-btn.prestigio-blue-white:hover {
+	background: rgb(122, 147, 132);
+	background: -moz-linear-gradient(45deg, rgba(122, 147, 132, 1) 0%, rgba(73, 104, 117, 1) 100%);
+	background: -webkit-linear-gradient(45deg, rgba(122, 147, 132, 1) 0%, rgba(73, 104, 117, 1) 100%);
+	background: linear-gradient(45deg, rgba(122, 147, 132, 1) 0%, rgba(73, 104, 117, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a9384', endColorstr='#496875', GradientType=1);
+}
+*/
+
+.brand-prestigio *.prestigio-blue-white-inverse {
+    background: #fff;
+    color: var(--pr-blue) !important;
+}
+
+.brand-navbar *.prestigio-blue,
+.brand-navbar *.prestigio-blue-white {
+    background: var(--pr-blue);
+    background: -moz-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-blue) 100%
+    );
+    background: -webkit-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-blue) 100%
+    );
+    background: linear-gradient(45deg, var(--pr-green) 0%, var(--pr-blue) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--pr-green), endColorstr=var(--pr-blue), GradientType=1);
+}
+
+.prestigio-white-stripe {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    min-height: 100vh;
+    background: #fff;
+    padding-top: 4rem;
+}
+
+.brand-prestigio *.prestigio-white-stripe {
+    min-height: 100vh;
+    background: #f9f9f9;
+    padding-top: 4rem;
+}
+
+.prestigio-blue {
+    background: var(--pr-blue);
+    background: -moz-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-lightblue) 50%,
+        var(--pr-blue) 100%
+    );
+    background: -webkit-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-lightblue) 50%,
+        var(--pr-blue) 100%
+    );
+    background: linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-lightblue) 50%,
+        var(--pr-blue) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--pr-green), endColorstr=var(--pr-blue), GradientType=1);
+}
+
+.prestigio-blue-white {
+    background: var(--pr-blue);
+    background: -moz-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-lightblue) 50%,
+        var(--pr-blue) 100%
+    );
+    background: -webkit-linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-lightblue) 50%,
+        var(--pr-blue) 100%
+    );
+    background: linear-gradient(
+        45deg,
+        var(--pr-green) 0%,
+        var(--pr-lightblue) 50%,
+        var(--pr-blue) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--pr-green), endColorstr=var(--pr-blue), GradientType=1);
+    color: #fff !important;
+}
+
+.prestigio-blue-white-inverse {
+    background: #fff;
+    color: var(--pr-blue) !important;
+}
+
+.prestigio-red {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef3f61+0,fe7d61+100 */
+    background: rgb(239, 63, 97);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(239, 63, 97, 1) 0%,
+        rgba(254, 125, 97, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(239, 63, 97, 1) 0%,
+        rgba(254, 125, 97, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(239, 63, 97, 1) 0%,
+        rgba(254, 125, 97, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef3f61', endColorstr='#fe7d61', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-red-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef3f61+0,fe7d61+100 */
+    background: rgb(239, 63, 97);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(239, 63, 97, 1) 0%,
+        rgba(254, 125, 97, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(239, 63, 97, 1) 0%,
+        rgba(254, 125, 97, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(239, 63, 97, 1) 0%,
+        rgba(254, 125, 97, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef3f61', endColorstr='#fe7d61', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+.prestigio-red-white-inverse {
+    background: #fff;
+    color: #ef3f61 !important;
+}
+
+.prestigio-green {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#40dd8b+0,89ff5a+100 */
+    background: #40dd8b;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #40dd8b 0%, #89ff5a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #40dd8b 0%, #89ff5a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #40dd8b 0%, #89ff5a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40dd8b', endColorstr='#89ff5a', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-green-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#40dd8b+0,89ff5a+100 */
+    background: #40dd8b;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #40dd8b 0%, #89ff5a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #40dd8b 0%, #89ff5a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #40dd8b 0%, #89ff5a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40dd8b', endColorstr='#89ff5a', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+.prestigio-green-white-inverse {
+    background: #fff;
+    color: #40dd8b !important;
+}
+
+.prestigio-yellow {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef8675+0,edcc40+100 */
+    background: rgb(239, 134, 117);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(239, 134, 117, 1) 0%,
+        rgba(237, 204, 64, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(239, 134, 117, 1) 0%,
+        rgba(237, 204, 64, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(239, 134, 117, 1) 0%,
+        rgba(237, 204, 64, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef8675', endColorstr='#edcc40', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-yellow-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef8675+0,edcc40+100 */
+    background: rgb(239, 134, 117);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(239, 134, 117, 1) 0%,
+        rgba(237, 204, 64, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(239, 134, 117, 1) 0%,
+        rgba(237, 204, 64, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(239, 134, 117, 1) 0%,
+        rgba(237, 204, 64, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef8675', endColorstr='#edcc40', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+.prestigio-lightblue {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0099ff+0,33ccff+100 */
+    background: rgb(0, 153, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(0, 153, 255, 1) 0%,
+        rgba(51, 204, 255, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(0, 153, 255, 1) 0%,
+        rgba(51, 204, 255, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(0, 153, 255, 1) 0%,
+        rgba(51, 204, 255, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099ff', endColorstr='#33ccff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-lightblue-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0099ff+0,33ccff+100 */
+    background: rgb(0, 153, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(0, 153, 255, 1) 0%,
+        rgba(51, 204, 255, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(0, 153, 255, 1) 0%,
+        rgba(51, 204, 255, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(0, 153, 255, 1) 0%,
+        rgba(51, 204, 255, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099ff', endColorstr='#33ccff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+.prestigio-purple {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#845cff+0,f363ff+100 */
+    background: rgb(132, 92, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(132, 92, 255, 1) 0%,
+        rgba(243, 99, 255, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(132, 92, 255, 1) 0%,
+        rgba(243, 99, 255, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(132, 92, 255, 1) 0%,
+        rgba(243, 99, 255, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#845cff', endColorstr='#f363ff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-purple-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#845cff+0,f363ff+100 */
+    background: rgb(132, 92, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(132, 92, 255, 1) 0%,
+        rgba(243, 99, 255, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(132, 92, 255, 1) 0%,
+        rgba(243, 99, 255, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(132, 92, 255, 1) 0%,
+        rgba(243, 99, 255, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#845cff', endColorstr='#f363ff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+.prestigio-gray {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8e8e8e+0,c6c6c6+100 */
+    background: rgb(142, 142, 142);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(142, 142, 142, 1) 0%,
+        rgba(198, 198, 198, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(142, 142, 142, 1) 0%,
+        rgba(198, 198, 198, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(142, 142, 142, 1) 0%,
+        rgba(198, 198, 198, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8e8e8e', endColorstr='#c6c6c6', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-gray-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8e8e8e+0,c6c6c6+100 */
+    background: rgb(142, 142, 142);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(142, 142, 142, 1) 0%,
+        rgba(198, 198, 198, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(142, 142, 142, 1) 0%,
+        rgba(198, 198, 198, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(142, 142, 142, 1) 0%,
+        rgba(198, 198, 198, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8e8e8e', endColorstr='#c6c6c6', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+.prestigio-text-blue {
+    color: var(--pr-blue);
+}
+
+.prestigio-text-lightblue {
+    color: var(--pr-green);
+}
+
+.prestigio-shadow {
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.prestigio-text-shadow {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.prestigio-btn {
+    display: inline-block;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.07rem;
+    padding: 0.8rem 1.2rem;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.prestigio-btn:focus {
+    outline: 0;
+}
+
+.prestigio-btn:not(.square) i {
+    position: relative;
+    top: 1px;
+}
+
+.prestigio-btn.prestigio-shadow {
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.prestigio-btn.prestigio-shadow:hover {
+    box-shadow: 2px 2px 10px 0 rgba(98, 77, 235, 0.5);
+}
+
+.prestigio-btn.prestigio-red-white.prestigio-shadow:hover,
+.prestigio-btn.prestigio-red-white-inverse.prestigio-shadow:hover {
+    box-shadow: 2px 2px 10px 0 rgba(239, 63, 97, 0.25);
+}
+
+.prestigio-btn.square > i {
+    display: inline-block;
+    width: 13px;
+}
+
+.prestigio-btn.square {
+    padding: 0.8rem 0.95rem;
+    text-align: center;
+}
+
+.prestigio-btn.square-small {
+    position: relative;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.prestigio-btn.square-small > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+}
+
+.prestigio-btn:disabled,
+.prestigio-btn[disabled] {
+    background: #cccccc !important;
+    color: #fff !important;
+    cursor: default;
+    pointer-events: none;
+}
+
+.prestigio-btn.transparent {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.prestigio-btn.transparent:hover {
+    color: var(--pr-blue);
+    border-color: var(--pr-blue);
+    box-shadow: 2px 2px 10px 0 rgba(112, 139, 212, 0.25);
+}
+
+@media (max-width: 767px) {
+    .prestigio-btn.square.small-responsive {
+        position: relative;
+        padding: 0;
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+    }
+
+    .prestigio-btn.square.small-responsive > i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 12px;
+    }
+}
+
+/*
+.prestigio-btn.prestigio-blue-white:hover {
+	background: #64eab7;
+	background: -moz-linear-gradient(45deg, #64eab7 0%, #64daea 50%, #7464ea 100%);
+	background: -webkit-linear-gradient(45deg, #64eab7 0%, #64daea 50%, #7464ea 100%);
+	background: linear-gradient(45deg, #64eab7 0%, #64daea 50%, #7464ea 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64eab7', endColorstr='#7464ea', GradientType=1);
+}
+*/
+
+[data-tabs]:not(.prestigio-tab-pane) {
+    border-bottom: 1px solid #eee;
+}
+.brand-prestigio [data-tabs]:not(.prestigio-tab-pane) {
+    border-bottom: unset;
+}
+
+.prestigio-tab-btn {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.07rem;
+    border-radius: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    cursor: pointer;
+    padding: 0.8rem 0 !important;
+    flex-grow: 1;
+    opacity: 0.67;
+    background: #fff;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.prestigio-tab-btn[disabled] {
+    opacity: 0.5;
+    background: #eee;
+    padding: 0.8rem 0.5rem !important;
+    pointer-events: none;
+}
+
+.prestigio-tab-btn.overview {
+    padding: 0.8rem 1.2rem !important;
+    flex-grow: 0;
+}
+
+.prestigio-tab-btn.same-size {
+    flex-grow: 1;
+    flex-basis: 0 !important;
+}
+
+.prestigio-tab-btn:focus {
+    outline: 0;
+}
+
+.prestigio-tab-btn:hover:not([disabled]) {
+    opacity: 1;
+}
+
+.prestigio-tab-btn.selected {
+    opacity: 1;
+    border-bottom-color: var(--pr-blue) !important;
+}
+
+.prestigio-tab-btn.small {
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+    flex-grow: 0;
+}
+
+.prestigio-tab-btn.dashboard-tab-btn {
+    border-radius: 0;
+    /* border-top: 2px solid #fff; */
+}
+
+.prestigio-tab-btn.dashboard-tab-btn:first-child {
+    /* border-left: 2px solid #fff; */
+    border-top-right-radius: 0;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-left: 2px solid transparent;
+    border-right: 0;
+}
+
+.prestigio-tab-btn.dashboard-tab-btn:last-child {
+    /* border-right: 2px solid #fff; */
+    border-top-left-radius: 0;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-left: 0;
+    border-right: 2px solid transparent;
+}
+
+.prestigio-tab-pane-placeholder {
+    display: flex;
+    height: 100%;
+}
+
+.prestigio-tab-pane-placeholder img {
+    margin: auto;
+}
+
+.prestigio-tab-responsive-wrapper {
+    overflow-x: auto;
+}
+
+.prestigio-modal-body {
+    width: 100%;
+    padding: 1rem;
+    max-height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.prestigio-checkbox,
+.prestigio-radio {
+    position: relative;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.prestigio-checkbox-input,
+.prestigio-radio-input {
+    display: none !important;
+}
+
+.prestigio-checkbox-button,
+.prestigio-radio-button {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 2rem;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.prestigio-checkbox.square .prestigio-checkbox-button,
+.prestigio-checkbox.square .prestigio-radio-button {
+    padding: 0.5rem;
+}
+
+.prestigio-checkbox-button-inner,
+.prestigio-radio-button-inner {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    background: #eee;
+    transition: all 0.1s ease-in-out;
+}
+
+.prestigio-checkbox-label,
+.prestigio-radio-label {
+    margin-left: 0.5rem;
+}
+
+.prestigio-checkbox:hover .prestigio-checkbox-button-inner,
+.prestigio-radio:hover .prestigio-radio-button-inner {
+    background: #fff;
+}
+
+.prestigio-checkbox.selected .prestigio-checkbox-button,
+.prestigio-radio.selected .prestigio-radio-button {
+    border-color: var(--pr-blue);
+    box-shadow: 2px 2px 10px 0 rgba(112, 139, 212, 0.25);
+}
+
+.prestigio-checkbox.selected .prestigio-checkbox-button-inner,
+.prestigio-radio.selected .prestigio-radio-button-inner {
+    background: var(--pr-blue);
+    border-color: var(--pr-blue);
+}
+
+.prestigio-new-input {
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    padding: 0.75rem 1rem;
+    line-height: 18px !important;
+    letter-spacing: normal;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    background: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.prestigio-new-input:disabled {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* input.prestigio-new-input {
+	cursor: pointer;
+} */
+
+textarea.prestigio-new-input {
+    border-radius: 1rem;
+    resize: none;
+}
+
+.select2-selection--multiple.prestigio-new-input {
+    min-height: 2.725rem;
+    padding: 0.5rem 0.5rem;
+    padding-bottom: 0rem;
+    border-radius: 2rem;
+}
+
+.prestigio-search .prestigio-new-input {
+    padding-right: 2.5rem;
+}
+
+.prestigio-new-input:focus {
+    border-color: var(--pr-blue);
+    outline: 0;
+    box-shadow: unset;
+    box-shadow: 2px 2px 10px 0 rgba(112, 139, 212, 0.25);
+    /* cursor: auto; */
+}
+
+.prestigio-copyright {
+    text-align: center;
+    font-size: 0.75rem;
+    opacity: 0.5;
+    margin: 4rem 0 0.5rem 0;
+}
+
+.prestigio-thumbnail {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.prestigio-thumbnail.full-square {
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+    border-radius: 0;
+}
+
+.prestigio-thumbnail.full-third {
+    width: 100%;
+    height: auto;
+    padding-top: 33.333333%;
+    border-radius: 0;
+}
+
+.prestigio-thumbnail.full-sixteen {
+    width: 100%;
+    height: auto;
+    padding-top: 56.25%;
+    border-radius: 0;
+}
+
+.prestigio-thumbnail.xxxl {
+    width: 8rem;
+    height: 8rem;
+}
+
+.prestigio-thumbnail.xxl {
+    width: 6rem;
+    height: 6rem;
+}
+
+.prestigio-thumbnail.xl {
+    width: 5rem;
+    height: 5rem;
+}
+
+.prestigio-thumbnail.big {
+    width: 4rem;
+    height: 4rem;
+}
+
+.prestigio-thumbnail.medium {
+    width: 3rem;
+    height: 3rem;
+}
+
+.prestigio-thumbnail.feed-avatar {
+    width: 2.625rem;
+    height: 2.625rem;
+}
+
+.prestigio-thumbnail > i {
+    font-size: 1rem;
+}
+
+.prestigio-thumbnail.medium > i {
+    font-size: 1.25rem;
+}
+
+.prestigio-thumbnail.small {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.prestigio-thumbnail.round {
+    border-radius: 50% !important;
+}
+
+.prestigio-thumbnail.soft {
+    border-radius: 1rem;
+}
+
+.prestigio-thumbnail.stacked {
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 2px solid #fff;
+    z-index: 0;
+}
+
+.prestigio-thumbnail.stacked:not(:first-child) {
+    margin-left: -0.75rem;
+}
+
+.prestigio-thumbnail.stacked:nth-child(2) {
+    z-index: 1;
+}
+
+.prestigio-thumbnail.stacked:nth-child(3) {
+    z-index: 2;
+}
+
+.prestigio-thumbnail-group {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.prestigio-thumbnail-group-left {
+    width: 1rem;
+    height: 2rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.prestigio-thumbnail-group-right-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 2rem;
+}
+
+.prestigio-thumbnail-group-right-bot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 2rem;
+}
+
+.prestigio-thumbnail-group.small {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.prestigio-thumbnail-group.small .prestigio-thumbnail-group-left {
+    width: 0.75rem;
+    height: 1.5rem;
+}
+
+.prestigio-thumbnail-group.small .prestigio-thumbnail-group-right-top {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.prestigio-thumbnail-group.small .prestigio-thumbnail-group-right-bot {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.prestigio-thumbnail-tag {
+    position: absolute;
+}
+
+.prestigio-thumbnail-tag.top-right {
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.prestigio-thumbnail > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prestigio-thumbnail.open {
+    border: 2px solid #eee;
+    background: #fff;
+}
+
+.prestigio-thumbnail > .thumbnail-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #eee;
+}
+
+.prestigio-thumbnail.big > .thumbnail-status {
+    width: 1rem;
+    height: 1rem;
+}
+
+.prestigio-thumbnail.medium > .thumbnail-status {
+    width: 1rem;
+    height: 1rem;
+}
+
+.prestigio-thumbnail > .thumbnail-status.online {
+    background: #4debb1;
+}
+
+.prestigio-thumbnail > .thumbnail-status.offline {
+    background: #aaaaaa;
+}
+
+.prestigio-thumbnail > .thumbnail-status.away {
+    background: #ffd319;
+}
+
+.prestigio-thumbnail > .thumbnail-status.busy {
+    background: var(--pr-red);
+}
+
+.prestigio-thumbnail.list-campaign-thumbnail {
+    width: 144px;
+    height: 48px;
+    padding: 0;
+}
+
+.prestigio-thumbnail.list-sample-thumbnail {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+}
+
+.prestigio-select {
+    padding: 0.5rem;
+    padding-bottom: calc(0.5rem + 1px);
+    font-family: "Chivo";
+    letter-spacing: 0.02rem;
+    font-size: 0.75rem;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #222222;
+    cursor: pointer;
+}
+
+.prestigio-select.inverse {
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.prestigio-select.inverse > option {
+    color: #444;
+}
+
+.prestigio-select:focus {
+    outline: 0;
+    background: #fff;
+}
+
+.prestigio-select.inverse:focus {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.prestigio-search {
+    position: relative;
+}
+
+.prestigio-search > i {
+    position: absolute;
+    font-size: 0.75rem;
+    top: calc(50% - 2px);
+    right: 0.3rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.prestigio-search-input {
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    padding-right: 2.25rem;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.prestigio-search-input:focus {
+    outline: 0;
+    border-color: #624deb;
+}
+
+.prestigio-search-input-btn {
+    position: absolute;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 0.75rem;
+    top: calc(50% + 1px);
+    transform: translateY(-50%);
+    opacity: 0.67;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.prestigio-search-input-btn i {
+    position: relative;
+    top: 1px;
+}
+
+.prestigio-search.inverse > .prestigio-search-input {
+    color: #fff;
+    border-color: #fff;
+}
+
+.prestigio-search.inverse > .prestigio-search-input-btn {
+    color: #fff;
+}
+
+.prestigio-search.inverse > .prestigio-search-input:focus {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.prestigio-search.inverse
+    > .prestigio-search-input:focus
+    + .prestigio-search-input-btn {
+    color: #fff;
+}
+
+.prestigio-search.no-icon > .prestigio-search-input {
+    padding-right: 0.5rem;
+}
+
+.prestigio-border-left {
+    border-left: 3px solid #ddd;
+    padding-left: 0.25rem;
+}
+
+.prestigio-icon-normal {
+    height: 1rem;
+}
+
+.prestigio-points-normal {
+    position: relative;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.375rem;
+    border-radius: 2px;
+    flex-shrink: 0;
+    cursor: default;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4debb1+0,4dd6eb+50,624deb+100 */
+    background: #4debb1;
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        #4debb1 0%,
+        #4dd6eb 50%,
+        #624deb 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        #4debb1 0%,
+        #4dd6eb 50%,
+        #624deb 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #4debb1 0%, #4dd6eb 50%, #624deb 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4debb1', endColorstr='#624deb', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: #fff !important;
+}
+
+a > .prestigio-points-normal {
+    cursor: pointer;
+}
+
+.prestigio-points-normal > img {
+    margin-right: 0.25rem;
+}
+
+.prestigio-points-normal > span {
+    position: relative;
+    top: 1px;
+}
+
+.prestigio-icon-big {
+    height: 2rem;
+}
+
+.prestigio-points-big {
+    position: relative;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.prestigio-points-big > img {
+    margin-right: 0.25rem;
+}
+
+.prestigio-points-big > span {
+    position: relative;
+    top: 1px;
+}
+
+.prestigio-points-normal:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bba96+0,7eaad3+100 */
+    background: rgb(107, 186, 150);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(107, 186, 150, 1) 0%,
+        rgba(126, 170, 211, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(107, 186, 150, 1) 0%,
+        rgba(126, 170, 211, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(107, 186, 150, 1) 0%,
+        rgba(126, 170, 211, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6bba96', endColorstr='#7eaad3', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-points-normal.brand {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#729691+0,366378+100 */
+    background: rgb(114, 150, 145);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(114, 150, 145, 1) 0%,
+        rgba(54, 99, 120, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(114, 150, 145, 1) 0%,
+        rgba(54, 99, 120, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(114, 150, 145, 1) 0%,
+        rgba(54, 99, 120, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#729691', endColorstr='#366378', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-points-wallet {
+    position: relative;
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.prestigio-points-wallet > img {
+    margin-right: 0.25rem;
+}
+
+.prestigio-points-wallet > span {
+    position: relative;
+    top: 1px;
+}
+
+.prestigio-icon-wallet {
+    height: 2rem;
+}
+
+.prestigio-blue-bar {
+    position: fixed;
+    height: 8px;
+    width: 100%;
+    z-index: 6;
+    bottom: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57bc90+0,72a4d4+100 */
+    background: rgb(87, 188, 144);
+    /* Old browsers */
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(87, 188, 144, 1) 0%,
+        rgba(114, 164, 212, 1) 100%
+    );
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(87, 188, 144, 1) 0%,
+        rgba(114, 164, 212, 1) 100%
+    );
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        45deg,
+        rgba(87, 188, 144, 1) 0%,
+        rgba(114, 164, 212, 1) 100%
+    );
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57bc90', endColorstr='#72a4d4', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.prestigio-blue-bar.half {
+    width: 50%;
+    z-index: 5;
+}
+
+.prestigio-creation-loading {
+    display: flex;
+    height: 100%;
+}
+
+.prestigio-creation-loading img {
+    margin: auto;
+}
+
+.prestigio-creation-wrapper {
+    display: none;
+}
+
+.prestigio-loading {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 2051;
+}
+
+.prestigio-loading img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .prestigio-btn {
+        font-size: 0.625rem;
+        letter-spacing: 0.05rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .prestigio-btn.square {
+        font-size: 0.625rem;
+        padding: 0.75rem 0.815rem;
+    }
+
+    .prestigio-new-input {
+        line-height: 19px !important;
+        padding: 0.5rem 0.875rem;
+    }
+
+    .prestigio-tab-btn {
+        font-size: 0.625rem;
+        letter-spacing: 0.05rem;
+        padding: 0.75rem 1rem;
+    }
+}
+
+.pr-tag {
+    position: relative;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #eee;
+    color: #fff;
+    border-radius: 1rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.pr-tag > i {
+    position: relative;
+    top: 1px;
+}
+
+.pr-tag.icon-tag {
+    padding: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.pr-tag.icon-tag i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pr-tag-status {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #eee;
+    border-radius: 50%;
+}
