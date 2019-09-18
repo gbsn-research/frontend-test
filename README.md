@@ -47,7 +47,7 @@ A: We like to be open minded and give the opportunity of working in what you thi
 | Scroll | After being logged in, show a page with a message. | Use API pagination for this task. |
 | Top Mentioners  | Show top 5 mentioners of a brand by most mentions. | Use API mentions for the specific brand and calculate in Front-End. |
 
-*https://adcaller.com/brand/me/mentioned_social_posts 
+*https://adcaller.com/brands/me/mentioned_social_posts 
 
 
 ### Notes
