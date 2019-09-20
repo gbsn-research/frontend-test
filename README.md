@@ -44,7 +44,7 @@ A: We like to be open minded and give the opportunity of working in what you thi
 | Sort | Sort Posts by post created date and by user who created (displayname). | Use API Sort parameters to Sort the Results. |
 | Filter | Filter posts by all, Facebook and Instagram. | Use API social parameter to Filter the results. |
 | Search | Search User who created (displayname) | Use API search parameters to filter the results. |
-| Scroll | Use Pagination to achieve a scroll Load. 4 Posts a time | Use API pagination for this task. |
+| Scroll | Use Pagination to achieve a scroll Load. 4 each load| Use API pagination for this task. |
 | Top Mentioners  | Show top 5 mentioners of a brand by most mentions. | Use API mentions for the specific brand and calculate in Front-End. |
 
 *https://adcaller.com/brands/me/mentioned_social_posts 
@@ -55,6 +55,7 @@ A: We like to be open minded and give the opportunity of working in what you thi
 - Documentation: [https://adcaller.com](https://adcaller.com)
 - /brands/me  will return the Brand used for Testing (same as /brand/Z2EfoOUFQJVs39lg)
 - Relation List are in the Documentation Schemas at the end of the documentation
+- Scroll Load Pagination: 4 Posts with load when the Scroll reaches the Bottom load the next 4 and so on.
 
 ### Delivery
 
