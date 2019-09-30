@@ -57,6 +57,7 @@ A: We like to be open minded and give the opportunity of working in what you thi
 - /brands/me  will return the Brand used for Testing (same as /brand/Z2EfoOUFQJVs39lg)
 - Relation List are in the Documentation Schemas at the end of the documentation
 - Scroll Load Pagination: 4 Posts with load when the Scroll reaches the Bottom load the next 4 and so on.
+- Share Button should redirect to the Social URL of the User.
 
 ### Delivery
 
