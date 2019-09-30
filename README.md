@@ -40,6 +40,7 @@ A: We like to be open minded and give the opportunity of working in what you thi
 | --- | --- | --- |
 | Posts | Fill Brand Mentioned Social Posts. | There is a specific API call for this*.|
 | Post Metrics | Fill Brand Mentioned Social Posts Metrics. | Include the social metrics of said Posts. |
+| User Metrics | Fill the User metrics | Include the User Social Metrics, reach and engagement. |
 | Other Mentions | Inside the Metrics Show other mentioned Brands. | Include Other brands who also mentioned this post. |
 | Sort | Sort Posts by post created date and by user who created (displayname). | Use API Sort parameters to Sort the Results. |
 | Filter | Filter posts by all, Facebook and Instagram. | Use API social parameter to Filter the results. |
