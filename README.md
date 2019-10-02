@@ -17,7 +17,7 @@ In this application assessment test for GBSN Research, we ask you to fill out a 
 ### Project Description Q&A
 
 Q: What does this Project entail?  
-A: It is related to another Project being developed. Its main purpose is to display metrics from Brands.
+A: It is related to another Project being developed. Its main purpose is to display metrics from a Brand.
 
 Q: How big is the Project?  
 A: The project is only composed by a single page.
@@ -46,9 +46,10 @@ A: We like to be open minded and give the opportunity of working in what you thi
 | Filter | Filter posts by all, Facebook and Instagram. | Use API social parameter to Filter the results. |
 | Search | Search User who created (displayname) | Use API search parameters to filter the results. |
 | Scroll | Use Pagination to achieve a scroll Load. 4 each load| Use API pagination for this task. |
-| Top Mentioners  | Show top 5 mentioners of a brand by most mentions. | Use API mentions for the specific brand and calculate in Front-End. |
+| Top Mentioners  | Show top 5 mentioners of the brand by most mentions. | Use API mentions for the specific /brand/me and calculate in Front-End.** |
 
-*https://adcaller.com/brands/me/mentioned_social_posts 
+* https://adcaller.com/brands/me/mentioned_social_posts 
+** https://adcaller.com/brand/me/mentions
 
 
 ### Notes
