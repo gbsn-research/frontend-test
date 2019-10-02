@@ -48,8 +48,8 @@ A: We like to be open minded and give the opportunity of working in what you thi
 | Scroll | Use Pagination to achieve a scroll Load. 4 each load| Use API pagination for this task. |
 | Top Mentioners  | Show top 5 mentioners of the brand by most mentions. | Use API mentions for the specific /brand/me and calculate in Front-End.** |
 
-* https://adcaller.com/brands/me/mentioned_social_posts 
-** https://adcaller.com/brand/me/mentions
+*https://adcaller.com/brands/me/mentioned_social_posts    
+**https://adcaller.com/brand/me/mentions
 
 
 ### Notes
