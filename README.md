@@ -60,6 +60,12 @@ A: We like to be open minded and give the opportunity of working in what you thi
 - Scroll Load Pagination: 4 Posts with load when the Scroll reaches the Bottom load the next 4 and so on.
 - Share Button should redirect to the Social URL of the User.
 
+### Contact Info
+
+Feel free to contact us at anytime, we are usually avaiable from 8:00 to 18:00 GMT+1 monday to friday.
+
+Skype & Email: david.cruz@gbsnresearch.com or info@gbsnresearch.com
+
 ### Delivery
 
 The Project must have instructions on how to execute, along with a small Functional Specification File describing how the code works.
