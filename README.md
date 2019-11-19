@@ -36,17 +36,17 @@ A: We like to be open minded and give the opportunity of working in what you thi
 
 ### Project Description Tasks
 
-| Task | Task info | Notes |
-| --- | --- | --- |
-| Posts | Fill Brand Mentioned Social Posts. | There is a specific API call for this*.|
-| Post Metrics | Fill Brand Mentioned Social Posts Metrics. | Include the social metrics of said Posts. |
-| User Metrics | Fill the User metrics | Include the User Social Metrics, reach and engagement. |
-| Other Mentions | Inside the Metrics Show other mentioned Brands. | Include Other brands who also mentioned this post. |
-| Sort | Sort Posts by post created date and by user who created (displayname). | Use API Sort parameters to Sort the Results. |
-| Filter | Filter posts by all, Facebook and Instagram. | Use API social parameter to Filter the results. |
-| Search | Search User who created (displayname) | Use API search parameters to filter the results. |
-| Scroll | Use Pagination to achieve a scroll Load. 4 each load| Use API pagination for this task. |
-| Top Mentioners  | Show top 5 mentioners of the brand by most mentions. | Use API mentions for the specific /brand/me and calculate in Front-End.** |
+| Task | Task info | Notes | Points   (0-200)
+| --- | --- | --- | --- |
+| Posts | Fill Brand Mentioned Social Posts. | There is a specific API call for this*.| 60 |
+| Post Metrics | Fill Brand Mentioned Social Posts Metrics. | Include the social metrics of said Posts. | 5 |
+| User Metrics | Fill the User metrics | Include the User Social Metrics, reach and engagement. | 15 |
+| Other Mentions | Inside the Metrics Show other mentioned Brands. | Include Other brands who also mentioned this post. | 30 |
+| Sort | Sort Posts by post created date and by user who created (displayname). | Use API Sort parameters to Sort the Results. | 10 |
+| Filter | Filter posts by all, Facebook and Instagram. | Use API social parameter to Filter the results. | 10 |
+| Search | Search User who created (displayname) | Use API search parameters to filter the results. | 10 |
+| Scroll | Use Pagination to achieve a scroll Load. 4 each load| Use API pagination for this task. | 20 |
+| Top Mentioners  | Show top 5 mentioners of the brand by most mentions. | Use API mentions for the specific /brand/me and calculate in Front-End.** | 40 |
 
 *https://adcaller.com/brands/me/mentioned_social_posts    
 **https://adcaller.com/brand/me/mentions
